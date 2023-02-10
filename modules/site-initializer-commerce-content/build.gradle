@@ -1,0 +1,10 @@
+processResources {
+	doLast {
+		logger.info('before copy.')
+		copy {
+			from new File(projectDir, "src/main/resources/site-initializer/thumbnail.png")
+			into new File(projectDir, "classes/META-INF/resources")
+		}
+		logger.info('after copy.')
+	}
+}

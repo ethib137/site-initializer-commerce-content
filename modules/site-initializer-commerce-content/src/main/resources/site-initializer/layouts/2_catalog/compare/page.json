@@ -1,0 +1,8 @@
+{
+	"hidden": true,
+	"name_i18n": {"en_US": "Page Compare"},
+	"private": false,
+	"system": false,
+	"type": "content",
+	"typeSettings": [{"key": "layoutUpdateable", "value": "true"}]
+}
